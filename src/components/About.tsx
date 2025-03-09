@@ -8,7 +8,6 @@ interface Skill {
       { name: 'Mobile development' },
       { name: 'Backend development' },
       { name: 'System design and architecture' },
-      { name: 'Engineering and Operational excellence' },
       { name: 'Cloud computing' },
       { name: 'Deep learning' },
     ];
@@ -33,7 +32,7 @@ interface Skill {
                   {skills.map((skill) => (
                     <span
                       key={skill.name}
-                      className="text-gray-600 bg-gray-100 px-3 py-1 rounded-full text-sm"
+                      className="text-center text-gray-600 bg-gray-100 px-3 py-1 rounded-full text-sm"
                     >
                       {skill.name}
                     </span>

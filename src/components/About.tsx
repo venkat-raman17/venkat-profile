@@ -4,11 +4,13 @@ interface Skill {
   
   export default function About() {
     const skills: Skill[] = [
-      { name: 'React' },
-      { name: 'TypeScript' },
-      { name: 'Node.js' },
-      { name: 'PostgreSQL' },
-      { name: 'Docker' },
+      { name: 'Web development' },
+      { name: 'Mobile development' },
+      { name: 'Backend development' },
+      { name: 'System design and architecture' },
+      { name: 'Engineering and Operational excellence' },
+      { name: 'Cloud computing' },
+      { name: 'Deep learning' },
     ];
   
     return (
